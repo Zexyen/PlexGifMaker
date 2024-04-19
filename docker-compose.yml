@@ -5,7 +5,7 @@ services:
       dockerfile: PlexGifMaker/Dockerfile
     image: plexgifmaker:latest
     ports:
-      - "9000:80"
+      - "9663:80"
     volumes:
       - plexgifmaker_keys:/usr/shared/plexgifmaker_keys
       #- ./certs:/https
